@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Web</title>
+  <link rel="icon" href="/img/weather.png">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="main-content">
+    {{>header}}
+    <h2>Use this site to get your wheather!</h2>
+    <form>
+      <input type="text" placeholder="Location">
+      <button type="submit">Search</button>
+    </form>
+    <div class="err">
+      <strong>Error</strong>
+      <p id="err">Unable to connect to weather service!</p>
+    </div>
+    <div class="result">
+      <div>
+        <strong>Location</strong>
+        <p id="location"></p>
+      </div>
+      <div>
+        <strong>Description</strong>
+        <p id="describe"></p>
+      </div>
+      <div>
+        <strong>Temperature</strong>
+        <p id="temperature"></p>
+      </div>
+      <div>
+        <strong>Feels like</strong>
+        <p id="feelslike"></p>
+      </div>
+    </div>
+  </div>
+  {{>footer}}
+
+  <script src="/js/index.js"></script>
+</body>
+</html>
