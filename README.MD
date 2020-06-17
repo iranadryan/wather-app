@@ -14,7 +14,7 @@ Criado com:
   
 
 ## Resultados  
-<p align="center"><img src="WeatherWeb.png" alt="Lunch Money mockup" /></p>
+<p align="center"><img src="WeatherWeb.png" alt="Weather Web mockup" /></p>
 
 ## Execute a aplicação  
 
